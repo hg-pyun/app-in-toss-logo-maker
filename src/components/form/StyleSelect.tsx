@@ -19,13 +19,13 @@ export function StyleSelect({ value, onChange }: Props) {
     <div className="space-y-2">
       <Label htmlFor="style-select">로고 스타일</Label>
       <Select value={value} onValueChange={(v) => onChange(v as StyleId)}>
-        <SelectTrigger id="style-select">
+        <SelectTrigger id="style-select" className="h-auto py-2">
           <SelectValue />
         </SelectTrigger>
         <SelectContent>
           {STYLES.map((s) => (
             <SelectItem key={s.id} value={s.id}>
-              <div className="flex flex-col">
+              <div className="flex flex-col text-left">
                 <span className="font-medium">{s.label}</span>
                 <span className="text-xs text-muted-foreground">{s.koDescription}</span>
               </div>
