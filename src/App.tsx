@@ -23,7 +23,6 @@ export default function App() {
             <FormPanel
               form={form}
               update={update}
-              onFillExample={fillExample}
               onReset={reset}
             />
           </section>
