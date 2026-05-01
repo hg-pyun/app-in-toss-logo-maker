@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3182F6"/>
+      <stop offset="1" stop-color="#1B4FB8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g transform="translate(100,180)">
+    <text x="0" y="0" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, 'Pretendard Variable', sans-serif" font-size="84" font-weight="700">인앱토스 로고 메이커</text>
+    <text x="0" y="80" fill="rgba(255,255,255,0.85)" font-family="-apple-system, BlinkMacSystemFont, 'Pretendard Variable', sans-serif" font-size="36" font-weight="500">GPT-Image · Gemini Nano Banana 용 영어 프롬프트 생성기</text>
+  </g>
+  <g transform="translate(100,460)">
+    <rect x="0" y="0" width="180" height="60" rx="14" fill="#fff"/>
+    <text x="90" y="40" fill="#3182F6" font-family="-apple-system, BlinkMacSystemFont, 'Pretendard Variable', sans-serif" font-size="24" font-weight="700" text-anchor="middle">600 × 600</text>
+  </g>
+</svg>
