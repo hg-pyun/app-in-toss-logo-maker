@@ -5,6 +5,15 @@
 
 > 이미지 자체를 생성하지는 않는다. **프롬프트만** 만들어 주는 100% 클라이언트 사이드 정적 도구다.
 
+## Sample
+아래 이미지는 생성기를 사용해 만든 이미지 샘플
+
+### Logo
+<img width="600" height="600" alt="profile-maker_600x600" src="https://github.com/user-attachments/assets/1a440df8-c289-41bf-ba73-bc517df1a956" />
+
+### Thumbnail
+<img width="1932" height="828" alt="profile_maker_thumbnail" src="https://github.com/user-attachments/assets/eef83839-0996-484a-ab7b-f87ea6607035" />
+
 ## 주요 기능
 
 - **클라이언트 템플릿 기반 프롬프트 생성** — LLM API 호출 없음, 네트워크 의존성 없음
